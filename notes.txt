@@ -1,0 +1,14 @@
+hit start button
+type "cmd" for command prompt
+
+dir - is to list files
+cd - to change folders
+
+change into your website folder
+
+run "python -m http.server"
+
+open up http://localhost:8000/
+
+in your browser
+
