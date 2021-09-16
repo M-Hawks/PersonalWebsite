@@ -1,43 +1,57 @@
-body {
-background-color:#BDBDBD;
-font-family: "Helvetica", "Arial", sans-serif;
-}
-#intro, #favorite-movies {
-  font-size: 1.3em;
-}
-.navBar ul {
-  list-style-type: none;
+* {
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  border: 1px solid #e7e7e7;
-  background-color: #008080;
+  box-sizing: border-box;
+}
+.page {
+background-color:#f8f8ff;
+font-family: "Helvetica", "Arial", sans-serif;
+padding-bottom: 20px;
+}
+.intro-container,
+.movies-container {
+  font-size: 1.3em;
+}
+.navbar-container {
+background-color: #008080;
+display: flex;
+padding: 14px 0;
 
 }
-.navBar li {
-  float: left;
-  border-right: 1px solid #bbb;
+.navbar-container a:hover {
+  background-color: #111;
+}
+.navbar {
+display:flex;
 
 }
-.navBar a{
-  display: block;
-  color: white;
+.navbar-item{
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
 
 }
-.navBar li a:hover {
-  background-color: #111;
+.navbar-item a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
 }
-.active {
-  background-color: #04AA6D;
+.intro-container {
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.intro-item {
+padding: 10px;
+}
+.movies {
+padding-left: 40px;
+padding-top: 30px;
 }
 
-#intro{
-padding-top: 30px;
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
 
 }
